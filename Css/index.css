@@ -50,7 +50,7 @@ body {
   top: 3.75rem;
   left: 0;
   width: 45%;
-  height: calc(100vh - 9.0625rem);
+  height: 600px;
   background-color: var(--blue-color);
 }
 
@@ -59,7 +59,7 @@ body {
   top: -5.3125rem;
   right: 0;
   width: 33%;
-  height: calc(100vh - 95px);
+  height: 600px;
   background-color: var(--blue-color);
 }
 
