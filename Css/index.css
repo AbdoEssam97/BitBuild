@@ -345,11 +345,11 @@ swiper-slide {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.1);
-  /* transform: translateY(100%);
+  transform: translateY(100%);
   -webkit-transform: translateY(100%);
   -moz-transform: translateY(100%);
   -ms-transform: translateY(100%);
-  -o-transform: translateY(100%); */
+  -o-transform: translateY(100%);
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -357,13 +357,13 @@ swiper-slide {
   -o-transition: 0.5s;
   z-index: 1;
 }
-/* .portfolio .box:hover::after {
+.portfolio .box:hover::after {
   transform: translateY(0);
   -webkit-transform: translateY(0);
   -moz-transform: translateY(0);
   -ms-transform: translateY(0);
   -o-transform: translateY(0);
-} */
+}
 
 .portfolio .box img {
   width: 100px;
@@ -384,7 +384,7 @@ swiper-slide {
   width: 200px;
   position: absolute;
   top: 50%;
-  /* top: 250%; */
+  top: 250%;
   left: 50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
@@ -399,9 +399,9 @@ swiper-slide {
   z-index: 2;
 }
 
-/* .portfolio .box:hover .caption {
+.portfolio .box:hover .caption {
   top: 50%;
-} */
+}
 
 .portfolio .box .caption span {
   padding: 5px 20px;
